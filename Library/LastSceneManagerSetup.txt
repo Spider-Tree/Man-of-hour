@@ -25,9 +25,13 @@ sceneSetups:
   isSubScene: 0
 - path: Assets/MANFNGFKAN.unity
   isLoaded: 1
-  isActive: 1
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/ai.unity
   isLoaded: 1
   isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/menu.unity
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
