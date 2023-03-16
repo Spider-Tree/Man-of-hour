@@ -5,7 +5,9 @@ using UnityEngine.Serialization;
 
 public class Health : MonoBehaviour
 {
-    [FormerlySerializedAs("Health")] public float healthvalue;
+     Attack _attack;
+     
+     public float healthvalue;
     // Update is called once per frame
     void Update()
     {
