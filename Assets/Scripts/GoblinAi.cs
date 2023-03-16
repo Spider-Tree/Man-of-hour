@@ -13,11 +13,12 @@ public class GoblinAi : MonoBehaviour
 
     public LayerMask whatIsGround, whatIsPlayer;
 
-   [SerializeField] public float health, maxhealth = 5f;
+
 
    private void Start()
    {
-       health = maxhealth;
+       player = GameObject.Find("PlayerObj").transform;
+             agent = GetComponent<NavMeshAgent>();
    }
 
    // attack weapon
@@ -42,8 +43,7 @@ public class GoblinAi : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.Find("PlayerObj").transform;
-        agent = GetComponent<NavMeshAgent>();
+      
     }
 
     private void Update()
@@ -113,9 +113,7 @@ public class GoblinAi : MonoBehaviour
 
     public void TakeDamage(float damageAmount)
     {
-        health -= damageAmount; 
-        
-        if (health <= 0) Invoke(nameof(DestroyEnemy), .5f);
+       
     }
 
     private void DestroyEnemy()

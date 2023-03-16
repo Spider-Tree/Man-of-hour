@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
+<<<<<<< HEAD
   lastUpdatedAtString: 2023-03-16T11:02:19.357-06:00
   initializedAtString: 2023-03-16T11:02:19.357-06:00
+=======
+  lastUpdatedAtString: 2023-03-16T11:02:49.312-06:00
+  initializedAtString: 2023-03-16T11:02:49.312-06:00
+>>>>>>> 402971e6493b03fbed543ef1b0f9981bdf86596f
   currentGitRemote:
     name: origin
     url: https://github.com/Spider-Tree/Man-of-hour.git

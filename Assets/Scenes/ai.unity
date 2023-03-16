@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.43944517, g: 0.48779184, b: 0.5680281, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -406,7 +406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_NavMeshLayer
@@ -956,15 +956,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5037619874638700613, guid: 4995aabaa7975234d9ce4b17cc800c7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.27705
+      value: 22.58
       objectReference: {fileID: 0}
     - target: {fileID: 5037619874638700613, guid: 4995aabaa7975234d9ce4b17cc800c7c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.217
+      value: 1.08
       objectReference: {fileID: 0}
     - target: {fileID: 5037619874638700613, guid: 4995aabaa7975234d9ce4b17cc800c7c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.879863
+      value: 7.62
       objectReference: {fileID: 0}
     - target: {fileID: 5037619874638700613, guid: 4995aabaa7975234d9ce4b17cc800c7c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1002,6 +1002,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5037619874638700618, guid: 4995aabaa7975234d9ce4b17cc800c7c, type: 3}
+      propertyPath: isSitting
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4995aabaa7975234d9ce4b17cc800c7c, type: 3}
 --- !u!1 &324329772
@@ -1016,7 +1020,7 @@ GameObject:
   - component: {fileID: 324329776}
   - component: {fileID: 324329775}
   - component: {fileID: 324329774}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1337,7 +1341,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 367618992}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: level prototype
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1478,6 +1482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthvalue: 1000
+<<<<<<< HEAD
 --- !u!1 &472559765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1517,11 +1522,15 @@ RectTransform:
   m_SizeDelta: {x: 6.7376, y: 11.626}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &472559767
+=======
+--- !u!114 &433579808
+>>>>>>> 402971e6493b03fbed543ef1b0f9981bdf86596f
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 472559765}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1554,6 +1563,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472559765}
   m_CullTransparentMesh: 1
+=======
+  m_GameObject: {fileID: 421447900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7fa4f12a167b84ca10b6a05212625b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 128
+  Enemy: {fileID: 744695957}
+  damage: 10
+  alreadyAttacked: 0
+  AttackRange: 4
+  enemyInAttackRange: 0
+  timeBetweenAttacks: 3
+>>>>>>> 402971e6493b03fbed543ef1b0f9981bdf86596f
 --- !u!1001 &493661044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1567,7 +1593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_NavMeshLayer
@@ -1641,7 +1667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_NavMeshLayer
@@ -1715,7 +1741,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_NavMeshLayer
@@ -1789,7 +1815,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1750121629297360, guid: 47e679cbed6a2d34285382aaeb83a951, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1750121629297360, guid: 47e679cbed6a2d34285382aaeb83a951, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2005,7 +2031,7 @@ GameObject:
   - component: {fileID: 599821926}
   - component: {fileID: 599821925}
   - component: {fileID: 599821924}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2224,7 +2250,7 @@ GameObject:
   - component: {fileID: 638794881}
   - component: {fileID: 638794880}
   - component: {fileID: 638794879}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2455,7 +2481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1058210814286184, guid: 3730624d7a1898441b246db63cde09ec, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1058210814286184, guid: 3730624d7a1898441b246db63cde09ec, type: 3}
       propertyPath: m_NavMeshLayer
@@ -2528,13 +2554,13 @@ GameObject:
   - component: {fileID: 744695960}
   - component: {fileID: 744695959}
   - component: {fileID: 744695958}
+  - component: {fileID: 744695964}
   - component: {fileID: 744695965}
   - component: {fileID: 744695962}
-  - component: {fileID: 744695964}
   - component: {fileID: 744695963}
-  m_Layer: 0
-  m_Name: Ai
-  m_TagString: Untagged
+  m_Layer: 7
+  m_Name: Enemy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2644,7 +2670,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.6000001
-  m_Speed: 4
+  m_Speed: 3
   m_Acceleration: 5
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -2668,7 +2694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 095473f976eb036418d2417291687ed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthvalue: 100
+  healthvalue: 5000
 --- !u!114 &744695965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2689,15 +2715,13 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 8
-  health: 100
-  maxhealth: 5
   Sword: {fileID: 0}
   CanAttack: 1
   AttackCooldown: 1
   walkPoint: {x: 0, y: 0, z: 0}
-  walkPointRange: 20
-  timeBetweenAttacks: 2
-  sightRange: 30
+  walkPointRange: 0
+  timeBetweenAttacks: 0
+  sightRange: 25
   AttackRange: 2
   playerInSightRange: 0
   playerInAttackRange: 0
@@ -2876,7 +2900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_NavMeshLayer
@@ -2949,7 +2973,7 @@ GameObject:
   - component: {fileID: 867089889}
   - component: {fileID: 867089888}
   - component: {fileID: 867089887}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3168,7 +3192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_NavMeshLayer
@@ -3394,7 +3418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1058210814286184, guid: 3730624d7a1898441b246db63cde09ec, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1058210814286184, guid: 3730624d7a1898441b246db63cde09ec, type: 3}
       propertyPath: m_NavMeshLayer
@@ -3549,7 +3573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_NavMeshLayer
@@ -3622,7 +3646,7 @@ GameObject:
   - component: {fileID: 1249586769}
   - component: {fileID: 1249586768}
   - component: {fileID: 1249586767}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3637,8 +3661,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1249586765}
   m_LocalRotation: {x: 0, y: 0, z: 0.043619405, w: 0.9990483}
-  m_LocalPosition: {x: -0.28417206, y: 0.76305723, z: 3.5610857}
-  m_LocalScale: {x: 6, y: 2, z: 2}
+  m_LocalPosition: {x: 0.22, y: 0.76305723, z: 3.73}
+  m_LocalScale: {x: 6, y: 2, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 367618992}
@@ -3719,7 +3743,7 @@ GameObject:
   - component: {fileID: 1275730084}
   - component: {fileID: 1275730083}
   - component: {fileID: 1275730082}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3913,7 +3937,7 @@ GameObject:
   - component: {fileID: 1295929147}
   - component: {fileID: 1295929146}
   - component: {fileID: 1295929145}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4111,7 +4135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1750121629297360, guid: 47e679cbed6a2d34285382aaeb83a951, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1750121629297360, guid: 47e679cbed6a2d34285382aaeb83a951, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4870,7 +4894,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_NavMeshLayer
@@ -4944,7 +4968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_NavMeshLayer
@@ -5119,7 +5143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1304004148260218, guid: f22c6b28664f53d45a7182c78eb84eba, type: 3}
       propertyPath: m_NavMeshLayer

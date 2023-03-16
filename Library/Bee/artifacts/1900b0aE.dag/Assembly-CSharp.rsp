@@ -356,6 +356,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs"
+"Assets/Scripts/Attack.cs"
 "Assets/Scripts/GoblinAi.cs"
 "Assets/Scripts/Health.cs"
 "Assets/Scripts/MainMenu.cs"
